@@ -18,10 +18,10 @@ public class CalcolaBiglietto {
         int km = keyboard.nextInt();
 
         System.out.print("Età: ");
-        int età = keyboard.nextInt();
+        int age = keyboard.nextInt();
 
-        if (età < 18) discount = 20;
-        if (età > 65) discount = 40;
+        if (age < 18) discount = 20;
+        if (age > 65) discount = 40;
 
         double priceTicket = (double) (km * priceKm) * ((100.0 - discount) / 100);
 
