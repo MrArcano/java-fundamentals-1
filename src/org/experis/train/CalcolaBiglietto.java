@@ -2,7 +2,7 @@ package org.experis.train;
 
 import java.util.Scanner;
 
-public class TicketTrain {
+public class CalcolaBiglietto {
 
 //    Esercizio 1: Biglietto del treno
 //    Il programma dovrà chiedere all’utente il numero di chilometri che vuole percorrere e l’età del passeggero.
