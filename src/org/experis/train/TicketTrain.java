@@ -27,5 +27,7 @@ public class TicketTrain {
 
         System.out.println("Price Ticket: " + priceTicket);
 
+        keyboard.close();
+
     }
 }
